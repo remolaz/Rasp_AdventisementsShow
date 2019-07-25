@@ -20,7 +20,7 @@ else
         for entry in $VIDEOPATH/*
         do
                 clear
-#                omxplayer -r $entry > /dev/null
+#                omxplayer -r $entry > /dev/null # -->This doesn't work on smaller displays
                 omxplayer -b $entry > /dev/null
         done
 fi
