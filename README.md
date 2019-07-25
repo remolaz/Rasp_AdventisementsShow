@@ -1,5 +1,8 @@
 # Rasp_AdventisementsShow
 This script will transform the Raspberry Pi 3B+ in an advertisement screen.
+Some video examples to launch are in the .zip file
+
+Instructions:
 
 At first install the video player:
 ~~~~
