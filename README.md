@@ -1,14 +1,21 @@
 # Rasp_AdventisementsShow
 This script will transform the Raspberry Pi 3B+ in an advertisement screen.
 
-To autostart the bash script on Raspberry autostart, do as following:
+At first install the video player:
+~~~~
+sudo apt-get install omxplayer
+~~~~
 
+Then try the bash script in terminal:
+~~~~
+./videoplayer.sh
+~~~~
+
+To autostart the bash script on Raspberry boot, do as following:
 ~~~~
 sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 ~~~~
-
-Add at the bottom the line:
-
+and add at the bottom line:
 ~~~~
 @bash /home/pi/pub.sh &
 ~~~~
